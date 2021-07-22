@@ -84,7 +84,7 @@
     figure.mt-5
       img(src="@/assets/template/tema-1-10.png" , alt="Texto que describa la imagen")      
     p.mt-4 El diseño físico y lógico de la red llamado topología está basado en los enlaces de punto a punto comúnmente para redes alámbricas. El estándar IEEE 802.3, comúnmente conocido como Ethernet, es la manera más común de LAN alámbrica. La figura en su apartado b, muestra un ejemplo de topología de Ethernet conmutada. Cada computadora se comunica mediante el protocolo Ethernet y se conecta a una caja conocida como switch a través de un enlace de punto a punto. 
-    p.mt-3 En ese sentido, un switch tiene varios puertos, cada uno de los cuales se puede conectar a una computadora. La función que cumple el switch es transmitir paquetes entre las computadoras conectadas a él, y utiliza la dirección en cada paquete para determinar a qué computadora se lo debe enviar. 
+    p.mt-3 En ese sentido, un switch tiene varios puertos, cada uno de los cuales se puede conectar a una computadora. La función que cumple el switch es transmitir paquetes entre las computadoras conectadas a él, y utiliza la dirección en cada paquete para determinar a qué computadora se lo debe enviar. Tal como se mostró en el ejemplo de red de área cableada. 
     .h4.mt-5 Modelo de referencia TCP/IP
     figure.mt-5
       img(src="@/assets/template/tema-1-11.png" , alt="Texto que describa la imagen")
