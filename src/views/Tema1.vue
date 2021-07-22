@@ -9,21 +9,21 @@
       h1 La internet y la web
     .row.mt-5 
       .col-12.col-lg-9.align-self-center
-        p En este componente formativo se estudiarán los conceptos básicos sobre la arquitectura de un sistema web, desde la naturaleza de su comportamiento, comprendiendo los componentes físicos y lógicos para su funcionamiento, pasando por la identificación y caracterización de tecnologías web del lado del cliente y del servidor, hasta la identificación de tecnologías que permiten la comunicación y el traspaso de información o generación de servicios con otros sistemas.
-        p.mt-3 En ese sentido, este componente busca generar un análisis crítico para la selección de una determinada tecnología dependiendo de los requerimientos y alcance de un proyecto estimado, a partir de la fundamentación y rasgos distintivos que en cada apartado de este documento se detallan.
+        p El desarrollo de las aplicaciones y sistemas web, han sido una tendencia desde las últimas tres décadas y sus mejoras han ido evolucionando conforme a las innovaciones de la infraestructura tecnológica que las soporta. Hoy en día vemos que las aplicaciones son mucho más interactivas, más rápidas, más seguras y usables, un ejemplo de esto es cuando se ingresa a un sitio web desde un dispositivo móvil, otro ejemplo es cuando vemos un video de YouTube, cuando conversamos por WhatsApp o vemos una serie en Netflix. Todas estas condiciones y aspectos se dan gracias a una robusta infraestructura de hardware que permite el despliegue no solo de aplicaciones sino de servicios que son usualmente utilizados día a día. En ese sentido, es importante comprender los primeros componentes que enriquecen y dan rigurosidad a la construcción de esta naturaleza de sistemas.  
+        
       .col-3.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-1-1.svg" alt="Texto que describa la imagen")
     #t_1_1.titulo-segundo.mt-5
       .h4 1.1  Funcionamiento de la internet 
     .row.mb-5 
-      .col-lg-8.offset-2
+      .col-10.col-lg-8.offset-lg-2.offset-1
         .cajon.color-acento-botones.p-4.mb-4
           p La aparición de la internet tuvo lugar cuando se dio la necesidad de comunicación y de interacción con distintas personas en cualquier lugar del mundo. De esta manera se ha considerado esta tecnología como una columna vertebral de la web, y se concibe como la infraestructura técnica que la hace posible. Desde lo más básico, se presenta como una gran red de computadoras que se comunican simultáneamente.
     .h4.mt-5 Historia de la internet
     figure.mt-4
       img(src="@/assets/template/tema-1-2.png" alt="Texto que describa la imagen")
-    p.mt-4 Su historia se remonta al comienzo de la década de 1960 como un proyecto de investigación llamado ARPANET financiado por el ejército de los Estados Unidos y más adelante se convirtió en una infraestructura pública en la década de 1980 con el apoyo de muchas instituciones del sector público y privado. Las distintas tecnologías que soporta internet han evolucionado con el tiempo, especialmente para satisfacer la gran demanda existente por parte de la población, no obstante, la forma en que funciona no ha cambiado mucho. En este sentido la internet se muestra como una forma de conectividad entre todos los equipos de cómputo, y por su distribución y organización, propenderá a que se encuentre la mejor manera de mantenerse conectados.
+    p.mt-4 Su historia se remonta al comienzo de la década de 1960, como un proyecto de investigación llamado ARPANET, financiado por el ejército de los Estados Unidos y más adelante se convirtió en una infraestructura pública en la década de 1980, con el apoyo de muchas instituciones del sector público y privado. Las distintas tecnologías que soporta internet han evolucionado con el tiempo, especialmente para satisfacer la gran demanda existente por parte de la población, no obstante, la forma en que funciona no ha cambiado mucho. En este sentido la internet se muestra como una forma de conectividad entre todos los equipos de cómputo, y por su distribución y organización, propenderá a que se encuentre la mejor manera de mantenerse conectados.
     .h4.mt-5 Hardware de red
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -36,6 +36,7 @@
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-secundario
+              
           .row(numero="1" titulo="Ejemplo de conexión entre dos equipos o terminales ")
             .col-12
               p La mayoría de las computadoras de hoy en día pueden soportar cualquiera de este tipo de conexiones. A continuación, se muestra un ejemplo de conexión vía ethernet entre dos equipos:
@@ -43,13 +44,13 @@
               figure
                 img(src='@/assets/template/tema-1-4.png', alt='Texto que describa la imagen')
 
-          .row(numero="2" titulo="Praesent luctus")
+          .row(numero="2" titulo="Ejemplo de conexión entre diez equipos o terminales")
             .col-md-4
               figure
                 img(src='@/assets/template/tema-1-5.svg', alt='Texto que describa la imagen')
             .col-md-8.mb-4.mb-md-0
               p No se puede pensar que la red solo se limita a dos ordenadores, se pueden conectar tantos como se deseen, aunque con mayor complejidad. Por ejemplo, si se quieren conectar 10 computadoras, se necesitarían 45 cables y unos nueve conectores por computador, como se alcanza a apreciar en la siguiente figura.
-          .row(numero="3" titulo="Praesent luctus")
+          .row(numero="3" titulo="Ejemplo de conexión de diez equipos con un enrutador")
             .col-md-4
               figure
                 img(src='@/assets/template/tema-1-6.svg', alt='Texto que describa la imagen')
@@ -57,26 +58,28 @@
               p Por ejemplo, para que el terminal B reciba un mensaje desde el terminal A, este debe enviarlo primero al router, quien a su vez lo remite al ordenador B asegurándose que dicho mensaje no sea entregado a otro ordenador.  Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica.
     .row.mt-5
       .col-12.col-lg-10.align-self-center
-        p Su historia se remonta al comienzo de la década de 1960 como un proyecto de investigación llamado ARPANET financiado por el ejército de los Estados Unidos y más adelante se convirtió en una infraestructura pública en la década de 1980 con el apoyo de muchas instituciones del sector público y privado. Las distintas tecnologías que soporta internet han evolucionado con el tiempo, especialmente para satisfacer la gran demanda existente por parte de la población, no obstante, la forma en que funciona no ha cambiado mucho. En este sentido la internet se muestra como una forma de conectividad entre todos los equipos de cómputo, y por su distribución y organización, propenderá a que se encuentre la mejor manera de mantenerse conectados.
+        p Teniendo en cuenta la gráfica anterior, ¿qué sucede al conectar cientos, miles, millones de ordenadores entre sí? Por supuesto un solo enrutador no puede escalar tanto, pero, anteriormente se ha indicado que el enrutador es como un pequeño computador, entonces ¿Qué impide conectar dos enrutadores a la vez?.
       .col-2.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-1-7.svg" , alt="Texto que describa la imagen")
     .row.mt-5
-      .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
+      .col-12.col-lg-12.align-self-center
+        p El proceso de conexión entre los diversos terminales demuestra que puede ser un ejercicio muy complejo y engorroso, por lo tanto, con el fin de solucionar esta organización, cada ordenador en una red está conectado a una pequeña computadora especial llamada enrutador o router #[strong (en inglés)]. 
+        p.mt-3 Este dispositivo cumple una función: tal como lo hace un señalizador en las estaciones del sistema integrado de transporte público, que  indican cuál ruta necesitas para llegar a un destino. De esta manera el router se encarga de asegurar que el mensaje enviado desde un computador o terminal emisor llegue al destino correcto. Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica. 
+    .row.mt-5
+      .col-6.col-lg-6.offset-3.offset-lg-3.align-self-center
         figure
           img(src="@/assets/template/tema-1-8.svg" , alt="Texto que describa la imagen")
-      .col-12.col-lg-10.align-self-center
-        p El proceso de conexión entre los diversos terminales demuestra que puede ser un ejercicio muy complejo y engorroso, por lo tanto, con el fin de solucionar esta organización, cada ordenador en una red está conectado a una pequeña computadora especial llamada enrutador o router #[strong (en inglés)]. 
-        p.mt-3 Este dispositivo cumple una función: tal como lo hace un señalizador en las estaciones del sistema integrado de transporte público, que  indican cuál es ruta necesitas para llegar a un destino, De esta manera el router se encarga de asegurar que el mensaje enviado desde un computador o terminal emisor llegue al destino correcto. Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica. 
     .row.mt-5 
       .col-lg-10.offset-1
         .cajon.color-secundario.px-5.py-4.mb-4
           .h4 Ejemplo de conexión de diez equipos con dos enrutadores
-          p Nada.  en ese sentido: estas conexiones entre terminales generan redes de datos para la transmisión como la recepción de información, por lo que es necesario caracterizar estas redes, las cuales son importantes para la comprensión del funcionamiento de un sistema Web. Entre ellas se encuentran las redes de área local, una red de área metropolitana y una Red de área amplia
+          p En ese sentido, estas conexiones entre terminales generan redes de datos de transmisión como la recepción de información, por lo que es necesario caracterizar estas redes, las cuales son importantes para la comprensión del funcionamiento de un sistema Web. Entre ellas se encuentran las redes de área local, una red de área metropolitana y una red de área amplia. 
           figure  
             img(src="@/assets/template/tema-1-9.png" , alt="Texto que describa la imagen")
+    .h4 Redes LAN
     p.mt-4 Generalmente llamadas LAN (Local Área Networks), son redes de naturaleza privada que operan dentro de un solo establecimiento, como una casa, oficina o fábrica. Las redes LAN se utilizan ampliamente para conectar computadoras personales y electrodomésticos con el fin de compartir recursos (por ejemplo, impresoras) e intercambiar información. 
-    p.mt-3 A continuación, se presentan un ejemplo de esta red:
+    p.mt-3 A continuación, se presenta un ejemplo de esta red:
     .h4.mt-5 Ejemplo de red de área local inalámbrica y cableada
     figure.mt-5
       img(src="@/assets/template/tema-1-10.png" , alt="Texto que describa la imagen")      
@@ -88,13 +91,13 @@
     p.mt-4 Al igual que los humanos, es importante que todos los equipos de cómputo tengan un modo común de comunicarse entre ellos. Para la mayoría de los equipos actuales, este modo es TCP/IP. TCP/IP suele venir inmerso en los equipos y está automatizado en buena medida. No obstante, es necesario la comprensión del modelo TCP/IP, sobre todo en el caso de que vaya a configurar un equipo para conectarlo a otro sistema. #[strong (Fisher, 2021)]
     .row
       .col-12.col-lg-10
-        p Así, este protocolo TCP/IP, cuyas siglas definen: Transmission Control Protocol/internet Protocol (Protocolo de control de transmisión/Protocolo de internet). Se presenta como un conjunto de reglas estandarizadas que permiten a los equipos comunicarse en una red como internet. La potencialidad de las máquinas está en su velocidad de transmisión y comunicar con otras, de hecho, una de las tendencias de esta cuarta revolución industrial es la interacción de ellas de manera inteligente, sobre todo en contexto de producción. Muchas de las cosas para las que utilizamos los equipos (enviar mensajes de correo electrónico, ver Netflix u obtener indicaciones para llegar a un sitio) dependen de la comunicación entre ellos. Pueden ser equipos de distintos fabricantes e incluso encontrarse en zonas geográficas diferentes. De esta manera las personas y plataformas software que los utilizan pueden hablar distintos lenguajes humanos e informáticos.
+        p Así, este protocolo TCP/IP, cuyas siglas definen: Transmission Control Protocol/internet Protocol (Protocolo de control de transmisión/Protocolo de internet), se presenta como un conjunto de reglas estandarizadas que permiten a los equipos comunicarse en una red como internet. La potencialidad de las máquinas está en su velocidad de transmisión y comunicar con otras, de hecho, una de las tendencias de esta cuarta revolución industrial es la interacción de ellas de manera inteligente, sobre todo en contexto de producción. Muchas de las cosas para las que utilizamos los equipos (enviar mensajes de correo electrónico, ver Netflix u obtener indicaciones para llegar a un sitio) dependen de la comunicación entre ellos. Pueden ser equipos de distintos fabricantes e incluso encontrarse en zonas geográficas diferentes. De esta manera las personas y plataformas software que los utilizan pueden hablar distintos lenguajes humanos e informáticos.
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-1-12.svg" , alt="Texto que describa la imagen")
-    p.mt-3 Según el blog de Avast Academy, señala: “…Una interacción determinada puede darse entre dos sistemas informáticos o involucrar cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano, cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos deben saber, por adelantado, cómo se espera que se comuniquen.
+    p.mt-3 El blog de Avast Academy, señala: “…Una interacción determinada puede darse entre dos sistemas informáticos o involucrar cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano, cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos deben saber, por adelantado, cómo se espera que se comuniquen.
     .row.mt-5
-      .col-8.offset-2
+      .col-12.col-lg-8.offset-lg-2
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
@@ -117,8 +120,12 @@
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-1-13.svg" alt="Texto que describa la imagen").w-75
+    .row.mt-5
+      .col-12                    
+        p De esta manera, es evidente que los equipos necesitan reglas, instrucciones o en su término técnico, protocolos para la comunicación y el comportamiento entre esas dos instancias.
+     
     .row.mt-5 
-      .col-lg-10.offset-1
+      .col-12.col-lg-10.offset-lg-1
         .cajon.color-secundario.px-5.py-4.mb-4
           .h4 Funcionamiento del modelo
           p El funcionamiento de este protocolo radica en descomponer cada mensaje en paquetes. Porque el objetivo no es volver a enviar de nuevo y desde cero el mensaje completo, toda vez que haya un fallo. Así que estos paquetes se vuelven a ensamblar en el otro extremo. De hecho, cada paquete podría tomar una ruta diferente hasta el equipo de destino, toda vez sí la ruta deja de estar disponible o está muy congestionada. De manera adicional, TCP/IP divide las distintas tareas de comunicación en capas. Así, cada capa tiene una función diferente. Los datos pasan por cuatro capas independientes antes de recibirse en el otro extremo.
@@ -143,7 +150,7 @@
               h4.mb-0 Suite de protocolos 
               h4.mb-0 (Principales)
           tr.bg-acento-contenido
-            td.p-5(rowspan='2') Capa de aplicación
+            td.p-5(rowspan='2') Capa de Aplicación
             td SSH
             td FTP
             td SMTP
@@ -154,7 +161,7 @@
             td SNMP
             td HTTP
           tr.bg-acento-contenido-op70
-            td.p-5(rowspan='2') capa de transporte
+            td.p-5(rowspan='2') Capa de Transporte
             td TCP
             td DCCP
             td uTP
@@ -163,16 +170,23 @@
             td ICMP
             td FCP
           tr.bg-acento-contenido-op40
-            td.p-5(rowspan='2') capa de internet
+            td.p-5(rowspan='2') Capa de Internet
             td IP
             td ICMP
           tr.bg-acento-contenido-op40
             td IPSEC
             td IGMP
+          tr.bg-acento-contenido-op40
+            td.p-5(rowspan='2') Capa de Interfaz de Red
+            td ARP
+            td L2TP
+          tr.bg-acento-contenido-op40
+            td NDP
+            td ETHERNET
     .h4 Dirección IP         
     .row.mt-4
       .col-12.col-lg-9.align-self-center
-        p Para enviar un mensaje a una computadora, se debe especificar a cuál. Es por ello por lo que toda computadora conectada a una red cuenta con una dirección única que la identifica de manera lógica y jerárquica, llamada “dirección IP” o Protocolo de internet (IP de sus siglas en inglés internet Protocol). Esta dirección se compone por una serie de cuatro números separados por puntos, por ejemplo: 192.168.2.19. Para las computadoras es un identificador simple, pero los humanos van a tener dificultad a la hora de recordar y memorizar este tipo de dirección. De esta manera con el propósito de convertir esta serie numérica en algo que podamos asociar con mayor facilidad a la dirección IP se utiliza lo que hoy en día conocemos como nombre de dominio. 
+        p Para enviar un mensaje a una computadora, se debe especificar a cuál. Es por ello por lo que toda computadora conectada a una red cuenta con una dirección única que la identifica de manera lógica y jerárquica, llamada “dirección IP” o Protocolo de internet (IP de sus siglas en inglés internet Protocol). Esta dirección se compone por una serie de cuatro números separados por puntos, por ejemplo: 192.168.2.19. Para las computadoras es un identificador simple, pero los humanos van a tener dificultad a la hora de recordar y memorizar este tipo de dirección. De esta manera, con el propósito de convertir esta serie numérica en algo que podamos asociar con mayor facilidad a la dirección IP se utiliza lo que hoy en día conocemos como nombre de dominio. 
       .col-3.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-1-15.svg" , alt="Texto que describa la imagen")
@@ -181,8 +195,9 @@
         :style="{'background-image': `url(${require('@/assets/template/tema-1-16.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        .h4.mb-0 Sistema de nombres de dominio DNS
-        p Para enviar un mensaje a una computadora, se debe especificar a cuál. Es por ello por lo que toda computadora conectada a una red cuenta con una dirección única que la identifica de manera lógica y jerárquica, llamada “dirección IP” o Protocolo de internet (IP de sus siglas en inglés internet Protocol). Esta dirección se compone por una serie de cuatro números separados por puntos, por ejemplo: 192.168.2.19. Para las computadoras es un identificador simple, pero los humanos van a tener dificultad a la hora de recordar y memorizar este tipo de dirección. De esta manera con el propósito de convertir esta serie numérica en algo que podamos asociar con mayor facilidad a la dirección IP se utiliza lo que hoy en día conocemos como nombre de dominio. 
+        .h4.mb-0 Sistema de nombres de Dominio, DNS
+        .row.mt-5
+        p Son como una libreta de direcciones de sitios web. Cuando escribes una dirección web en el navegador, el navegador busca los DNS antes de recuperar el sitio web. El navegador necesita averiguar en qué servidor vive el sitio web y así enviar los mensajes HTTP al lugar correcto (ver más abajo). Esto es como buscar la dirección de la tienda para que puedas llegar a ella. Por ejemplo, google.com es el nombre de dominio utilizado para sustituir la dirección IP 173.194.121.32. Así, usar un nombre de dominio es la manera más fácil para nosotros de identificar un ordenador a través de internet.  
     .h4.mt-5 Protocolo HTTP
     .row.mt-4
       .col-12.col-lg-8
@@ -195,7 +210,8 @@
       .h4 1.2  Arquitectura web
     figure.mt-4
       img(src="@/assets/template/tema-1-18.png" , alt="Texto que describa la imagen")
-    .h4.mt-5 Arquitectura Cliente/Servidor
+      p.mt-4 Para entender el funcionamiento de un sistema, plataforma y aplicación web, es necesario conocer los conceptos y el comportamiento de tecnologías que están inmersas en esta arquitectura. Por lo que se detalla a continuación. 
+      .h4.mt-5 Arquitectura cliente/servidor
     p.mt-4 Una aplicación web tiene una arquitectura simplificada, como lo es la arquitectura CLIENTE/SERVIDOR, en el que por un lado se encuentra al cliente que está constituido principalmente por un explorador web o web browser, que será el encargado tanto de mostrar como de solicitar información o documentos a través de una red. Las computadoras conectadas a la web se llaman clientes y servidores. Un diagrama simplificado de cómo interactúan se vería de la siguiente forma:
     .row.mt-5
       .col-6.offset-3
@@ -218,24 +234,25 @@
             :style="{'background-image': `url(${require('@/assets/template/tema-1-21.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            .h4.mb-0 Servidor Web
+            .h4.mb-0 Servidor web
             p En el otro lado de la arquitectura web se tiene al servidor web, cuya actividad más importante es la de atender las solicitudes de los clientes a través de los navegadores web. Es en esta instancia donde se lleva a cabo todo el procesamiento de las aplicaciones y la gestión de los datos. De manera adicional los servidores son computadores que almacenan páginas web, sitios o aplicaciones. 
             p.mt-3 Cuando un dispositivo cliente quiere acceder a una página web, una copia de la página web se descarga desde el servidor en el equipo cliente y se muestra en el navegador web del usuario. Básicamente, un servidor es una gran computadora que guarda y transmite datos vía internet. 
     p.mt-5 Ahora se presenta un esquema que hará más comprensible el abordaje de cada uno de los aspectos que tienen que ver con esta arquitectura.
     .row.mt-4
       .col-12.borde-gris
         .row.p-4
-          .col-6.col-lg-4.offset-3.offset-lg-0
+          .col-12.col-lg-8.mt-4.mt-lg-0
+            .h4 Arquitectura cliente servidor
+        .row.p-4
+          .col-4.col-lg-4.offset-4.offset-lg-4.align-self-center
             figure
               img(src="@/assets/template/tema-1-22.png" alt="Texto que describa la imagen")
-          .col-12.col-lg-8.mt-4.mt-lg-0
-            .h4 Arquitectura cliente servidor 
-            p.mt-3 Ahora se presenta un esquema que hará más comprensible el abordaje de cada uno de los aspectos que tienen que ver con esta arquitectura.
+            
     .row.mt-4
       .col-12.borde-gris
         .row.p-4
           .col-12.col-lg-8
-            p Se inicia con un ejemplo, para este caso se tiene el cliente A, conforme se muestra en anterior.  
+            p Se inicia con un ejemplo, para este caso se tiene el cliente A, conforme se muestra en el anterior esquema.  
             p.mt-3 Este cliente el cual es una computadora u ordenador de escritorio tiene de por sí instalado un explorador web. El usuario Pablo Pérez necesita ingresar a Facebook. Al respecto para ingresar a la red social, se deben registrar las credenciales como login y password, al dar clic en iniciar sesión se está generando de manera inmediata una petición que va desde el cliente hasta el servidor como se muestra en el esquema de la arquitectura. 
           .col-6.col-lg-4.offset-3.offset-lg-0
             figure
@@ -244,36 +261,38 @@
       .col-12.borde-gris
         .row.p-4
           .col-12.col-lg-8
-            p Se inicia con un ejemplo, para este caso se tiene el cliente A, conforme se muestra en anterior. 
-            p.mt-3 Este cliente el cual es una computadora u ordenador de escritorio tiene de por sí instalado un explorador web. El usuario Pablo Pérez necesita ingresar a Facebook. Al respecto para ingresar a la red social, se deben registrar las credenciales como login y password, al dar clic en iniciar sesión se está generando de manera inmediata una petición que va desde el cliente hasta el servidor como se muestra en el esquema de la arquitectura.
+            p De este modo el servidor por su parte entra a procesar los datos de Pablo y corrobora con otros servidores, y bases de datos, como se aprecia en la figura.  
+            p.mt-3 Al ser afirmativo o no la validación de datos, el servidor si o si envía una respuesta al usuario permitiéndole o no acceder a su espacio en la red social. Esa respuesta del servidor se envía en un lenguaje y recursos que son interpretados y manejados por el explorador web para que muestre en pantalla. Esto quiere decir que existen tecnologías del lado del cliente y del lado del servidor, por lo que el servidor además de procesar los datos debe responder en el formato o lenguaje del cliente para su interpretación. 
           .col-6.col-lg-4.offset-3.offset-lg-0
             figure
-              img(src="@/assets/template/tema-1-23.png" alt="Texto que describa la imagen")
+              img(src="@/assets/template/tema-1-24.png" alt="Texto que describa la imagen")
     .row.mt-4
       .col-12.borde-gris
         .row.p-4
           .col-6.col-lg-4.offset-3.offset-lg-0
-            .h4 Cuadro de Login y password de Facebookz
+            .h4 Cuadro de login y password de facebookz
             figure
               img(src="@/assets/template/tema-1-25.png" alt="Texto que describa la imagen")
           .col-12.col-lg-8.mt-4.mt-lg-0
-            p Este ejemplo se puede realizar desde cualquier otro dispositivo, por eso es por lo que la arquitectura Web es considerada como un ambiente multiplataforma y distribuido.
+            p Este ejemplo se puede realizar desde cualquier otro dispositivo, por eso es por lo que la arquitectura web es considerada como un ambiente multiplataforma y distribuido.
             p.mt-3 Finalmente, se debe tener en cuenta que una Web sigue las siguientes pautas:
             .row
               .col-sm.mb-5.mb-sm-0
                 ul.lista-ul
                   li
                     i.fas.fa-angle-right
-                    | ¿Cómo inician la conversación?                    
+                    | ¿cómo se realiza la transferencia de información? 
+                    <br>Aquí cada solicitud y respuesta es enviada gracias al protocolo HTTP. Sobre este protocolo es que se envían los datos.                  
                   li
                     i.fas.fa-angle-right 
-                    | ¿A quién le toca comunicarse?
+                    | ¿Cómo se describe la información apenas llega al cliente como respuesta?
+                    <br>Para la presentación de la información web se utiliza las tecnologías del lado del cliente, es decir con HTML, CSS y JavaScript en sus versiones más recientes.
                   li
                     i.fas.fa-angle-right 
-                    | ¿Cómo sabe un equipo si su mensaje se ha transmitido correctamente?
-                  li 
-                    i.fas.fa-angle-right 
-                    | ¿Cómo terminan la conversación?”. #[strong (Fisher, 2021)]                   
+                    | ¿Cómo se localiza la información?
+                    <br>La información es localizada por medio de la dirección URL, la cual se divide en 3 partes: primero el protocolo, segundo la ruta del servidor y tercero el dominio quedando de la siguiente forma: 
+                    <br> http://ruta del servidor+ubicacion+dominio
+                                    
 
 
 

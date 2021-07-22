@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Conceptos, tecnologías y arquitectura para el desarrollo web.',
+      'Conceptos, tecnologías y arquitectura para el desarrollo web',
     descripcionCurso:
-      'En este componente formativo se abordarán los conceptos relacionados al funcionamiento de un sistema web soportado bajo la arquitectura de la internet. Seguidamente se revisarán las tecnologías más importantes para el desarrollo web tanto del lado del cliente como del servidor y por último se abordan los conceptos básicos de una arquitectura orientada a servicios.',
+      'En este componente formativo se abordarán los conceptos relacionados con el funcionamiento de un sistema web soportado bajo la arquitectura de la internet. Seguidamente se revisarán las tecnologías más importantes para el desarrollo web, tanto del lado del cliente como del servidor y por último se abordan los conceptos básicos de una arquitectura orientada a servicios.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -31,13 +31,13 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Funcionamiento de la internet',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Arquitectura web',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
         ],
       },
@@ -51,7 +51,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'ecnologías del front-end',
+            titulo: 'Tecnologías del front-end',
             hash: 't_2_1',
           },
           {
@@ -189,27 +189,27 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Arquitectura software:',
+      termino: 'Arquitectura software',
       significado:
         'Es una metodología que se refiere a la estructuración de un sistema software que, idealmente, se crea en etapas tempranas de la construcción del sistema.',
     },
     {
-      termino: 'Página web:',
+      termino: 'Página web',
       significado:
-        'Es un documento que se puede mostrar en un navegador web como Firefox, Google Chrome, Microsoft internet Explorer o Edge, o Safary de Apple, ',
+        'Es un documento que se puede mostrar en un navegador web como Firefox, Google Chrome, Microsoft internet Explorer o Edge, o Safary de Apple. ',
     },
     {
-      termino: 'Servidor web:',
+      termino: 'Servidor web',
       significado:
         'Una computadora de grandes especificaciones hardware que aloja un sitio web o plataformas con todos sus recursos en la internet.',
     },
     {
-      termino: 'Sitio web:',
+      termino: 'Sitio web',
       significado:
         'Es una colección o conjunto de páginas web que se agrupan y normalmente se conectan de varias maneras. Por lo regular se le conoce como "sitio web" o simplemente "sitio".',
     },
     {
-      termino: 'W3C:',
+      termino: 'W3C',
       significado:
         'Por sus siglas World Wide Web Consortium. Es una comunidad internacional que genera recomendaciones y estándares que aseguran el crecimiento de la WWW a largo plazo.',
     },

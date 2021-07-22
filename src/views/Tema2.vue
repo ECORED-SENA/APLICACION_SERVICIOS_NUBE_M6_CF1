@@ -28,7 +28,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Las tecnologías de front-end son usadas para el “lado del cliente”, sea de un sitio web o aplicación. Se utilizan para desarrollar los componentes interactivos y producir los elementos que los usuarios ven e interactúan con ellos. Esto incluye colores y estilos de texto, imágenes, botones y menús de navegación entre otros objetos interactivos. Normalmente estas tecnologías y lenguajes vienen implementados en los diferentes navegadores.
+                p Las tecnologías de front-end son usadas para el “lado del cliente”, sea de un sitio web o aplicación. Se utilizan para desarrollar los componentes interactivos y producir los elementos que los usuarios ven e interactúan con ellos. Esto incluye colores y estilos de texto, imágenes, botones y menús de navegación, entre otros objetos interactivos. Normalmente estas tecnologías y lenguajes vienen implementados en los diferentes navegadores.
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-2-3.svg" alt="Texto que describa la imagen").w-75
@@ -69,7 +69,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) CSS describe como debe ser renderizado  el elemento estructurado es decir se encarga de la apariencia del sitio. De manera adicional, abordamos la definición descomponiendo sus siglas:
+                p Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) CSS, describe como debe ser renderizado  el elemento estructurado, es decir, se encarga de la apariencia del sitio. De manera adicional, abordamos la definición descomponiendo sus siglas:
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-2-6.svg" alt="Texto que describa la imagen").w-75
@@ -78,13 +78,13 @@
         ul.lista-ul
           li
             i.fas.fa-angle-right
-            | #[strong Cascading:] Significa que los estilos que aplicamos a los elementos de una página web se propagan a los elementos que contiene, se aplican en cascada.                    
+            | #[strong Cascading:]<span> </span> significa que los estilos que aplicamos a los elementos de una página web se propagan a los elementos que contiene, se aplican en cascada.                    
           li
             i.fas.fa-angle-right 
-            | #[strong Style:] Mediante la tecnología CSS se aplican estilos visuales a los distintos elementos de nuestra página web.
+            | #[strong Style:]<span> </span> mediante la tecnología CSS se aplican estilos visuales a los distintos elementos de nuestra página web.
           li
             i.fas.fa-angle-right 
-            | #[strong Sheets:] Lo que traduce hojas, porque los estilos de una página web se añaden en archivos aparte. Estos archivos deben tener la extensión .css de manera general.
+            | #[strong Sheets:]<span> </span> lo que traduce hojas, porque los estilos de una página web se añaden en archivos aparte. Estos archivos deben tener la extensión CSS de manera general.
     p.mt-5 Desde CSS3, el alcance de las especificaciones se incrementó de forma significativa y el progreso de los diferentes módulos de CSS comenzó a mostrar varias diferencias. De esta forma con CSS3 se tiene mayor control de los elementos del sitio, con sus nuevas funciones y atributos sobre las etiquetas HTML, maximizan las acciones visuales del sitio o plataforma
     .h4.mt-5 JavaScript (JS)
     p.mt-3 En la literatura hay un sin número de definiciones con respecto a este lenguaje de programación, no obstante, hay una especial la cual se cita de parte del blog de Rafa Ramos de manera literal, él dice:z
@@ -100,14 +100,14 @@
     .row.mt-5
       .col-12.col-lg-7
         p De manera adicional, JS si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, es usado también en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat. 
-        p.mt-3 Como conclusión a estas 3 principales tecnologías, se realiza una analogía con el cuerpo humano, de esta manera los huesos que son la estructura ósea es lo que a su vez hace el lenguaje de etiquetas HTML, los músculos que hacen que el cuerpo se mueva y tenga motricidad y dinámica es lo que a su vez hace JavaScript, y la piel que es la cubierta del cuerpo humano y se puede decir que es le da apariencia, es lo que hace a su vez el CSS. Con esta analogía se espera que se tenga más comprensión de este tipo de tecnologías del lado del cliente.
+        p.mt-3 Como conclusión a estas 3 principales tecnologías, se realiza una analogía con el cuerpo humano, de esta manera los huesos que son la estructura ósea es lo que a su vez hace el lenguaje de etiquetas HTML, los músculos que hacen que el cuerpo se mueva y tenga motricidad y dinámica es lo que a su vez hace JavaScript, y la piel que es la cubierta del cuerpo humano y se puede decir que es la que da apariencia, es lo que hace a su vez el CSS. Con esta analogía se espera que se tenga más comprensión de este tipo de tecnologías del lado del cliente.
       .col-4.col-lg-5.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-2-8.png" alt="Texto que describa la imagen")
     .h4.mt-5 Frameworks del front-end
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Z-YzV72qq4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_2_2.titulo-segundo.mt-5
       .h4 2.2  Tecnologías del back-end
     .row.mt-4
@@ -123,26 +123,26 @@
       .col-8.offset-2
         figure
           img(src="@/assets/template/tema-2-10.svg" alt="Texto que describa la imagen")
-    p.mt-5 En el lado del servidor, el back-end potencia el funcionamiento del sitio web debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de back-end se utilizan para comunicar la información de la base de datos al navegador. Según la empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido”. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia”. #[strong (Third Rock Techkno, 2021)]
+    p.mt-5 En el lado del servidor, el back-end potencia el funcionamiento del sitio web debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de back-end se utilizan para comunicar la información de la base de datos al navegador. La empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido”. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia”. #[strong (Third Rock Techkno, 2021)]
     .row.mt-5 
       .col-10.offset-1
         .cajon.color-secundario.bg-color-secundario-op40.px-5.py-4.mb-4
-          .h3 Node.JS: 
+          .h3 Node.JS 
           p.mt-3 Este lenguaje tiene su propio entorno de ejecución. Esta es la razón por la que es popular entre la comunidad de desarrolladores. Además, como Node.js en la literatura de esta disciplina del desarrollo software es comúnmente visto como uno de los lenguajes más eficientes, se prefiere desarrollar aplicaciones de alta gama para el desarrollo de sitios web, así como para la transmisión de video. 
     .row.mt-3 
       .col-10.offset-1
         .cajon.color-secundario.bg-color-secundario-op25.px-5.py-4.mb-4
-          .h3 Kotlin: 
+          .h3 Kotlin 
           p.mt-3 Se presenta como un lenguaje de programación BackEnd para Java Virtual Machine. Es muy preferido para el desarrollo de Android, ya que cuenta con el soporte oficial de Google. Kotlin se muestra de cara como uno de los lenguajes que tiene una curva de aprendizaje muy fácil según Third Rock Techkno. Por lo tanto, el lenguaje es menos propenso a fallos y brinda a los desarrolladores la oportunidad de encontrar los errores fácilmente. (Third Rock Techkno, 2021).
     .row.mt-3 
       .col-10.offset-1
         .cajon.color-secundario.bg-color-secundario-op15.px-5.py-4.mb-4
-          .h3 Ruby: 
+          .h3 Ruby 
           p.mt-3 Se estima que este lenguaje actualmente jugará un papel fundamental, ya que ayuda a reducir el tiempo dedicado a tareas estandarizadas.
     .row.mt-3 
       .col-10.offset-1
         .cajon.color-secundario.bg-color-secundario-op10.px-5.py-4.mb-4
-          .h3 PHP: 
+          .h3 PHP 
           p.mt-3 Es un lenguaje de programación de BackEnd conveniente que es muy flexible y tiene características impecables. Es uno de los programas donde su comunidad se ha venido actualizando y hay gran mayoría de frameworks basados en este lenguaje. Es por eso por lo que PHP se considera el futuro del desarrollo BackEnd en 2021. Además, la sintaxis de PHP es muy expresiva, lo que brinda libertad creativa a los desarrolladores.
     .h4.mt-5 Frameworks del back-end
     .row.mt-5
@@ -151,7 +151,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p En el lado del servidor, el back-end potencia el funcionamiento del sitio web debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de back-end se utilizan para comunicar la información de la base de datos al navegador. Según la empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido”. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia”. #[strong (Third Rock Techkno, 2021)]
+                p Como se mencionó en el apartado de frameworks del lado del front-end, este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los frameworks del lado del back-end que son tendencia. Según indica una de las empresas de desarrollo web más importantes de Canadá Monocubed. (Mistry, 2021)
             .col-lg-4.mb-4.mb-lg-0s
               figure
                 img(src="@/assets/template/tema-2-11.svg" alt="Texto que describa la imagen").w-75
@@ -161,7 +161,7 @@
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Laravel:")
-            p.mt-3 Este framework tiene una excelente estructura del lenguaje, la capacidad de adaptarse a grupos gigantes y la efectividad de sus recursos como es la llamada toolbox. Basado en el lenguaje PHP, sigue una sintaxis elegante y expresiva, Laravel permite a los desarrolladores web ser flexibles y creativos mientras se encargan de los detalles de fondo a diferencia de otros frameworks.
+            p.mt-3 Este framework tiene una excelente estructura del lenguaje, la capacidad de adaptarse a grupos gigantes y la efectividad de sus recursos como es la llamada toolbox. Basado en el lenguaje PHP, sigue una sintaxis elegante y expresiva. Laravel permite a los desarrolladores web ser flexibles y creativos mientras se encargan de los detalles de fondo a diferencia de otros frameworks.
           .row(numero="2" titulo="Django:")
             p.mt-3 Es un framework de alto nivel que se desarrolla con la noción de ‘baterías incluidas’. Esto significa que casi todo lo que necesitaría cualquier desarrollador ya está incluido. Django es utilizado principalmente para el desarrollo de aplicaciones web interactivas a gran escala impulsadas por bases de datos. Es altamente personalizable y escalable. Tiene una amplia comunidad, una importante documentación.
           .row(numero="3" titulo="Ruby On Rails:")
