@@ -6,9 +6,24 @@
       .titulo-principal__numero
         span 3
       h1 Introducción a la arquitectura orientada a servicios
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.mt-5
+      .col-12.col-lg-7
+        p Hasta el momento se han venido revisando las tecnologías para el desarrollo web, por lo que es necesario entender que aparte de crear aplicaciones también se pueden crear servicios. Para esto es necesario abordar de manera sucinta el concepto de la Arquitectura Orientada a Servicios llamada SOA. Al respecto es un tipo de arquitectura de software, la cual se basa en la integración de aplicaciones mediante servicios. Según IBM, se define SOA, como:
+        .row.mb-5 
+          .col-12
+            .cajon.color-acento-contenido.px-5.py-4.mb-3
+              p “…una manera de hacer que los componentes de software sean reutilizables a través de interfaces de servicio. Estas interfaces utilizan estándares de comunicación comunes entre sí, de tal manera que pueden incorporarse rápidamente a nuevas aplicaciones sin tener que realizar una integración profunda cada vez…”. #[strong (SOA, 2021)]
+      .col-5.d-none.d-lg-block
+        figure
+          img(src="@/assets/template/tema-3-6.png" alt="Texto que describa la imagen")
+    .row.mt-5
+      .col-3.d-none.d-lg-block
+        figure
+          img(src="@/assets/template/tema-3-5.svg" alt="Texto que describa la imagen")
+      .col-12.col-lg-9
+        p En ese sentido, es interesante el desarrollo software en sí, la reutilización de componentes, y la comunicación con distintas aplicaciones sin tener la necesidad de crear un desarrollo a la medida para cada aplicación al cual se quiera conectar. Es por eso por lo que nace el concepto de servicio y de interoperabilidad.
+        p.mt-3 Como una de las implementaciones de SOA existen las arquitecturas REST y SOAP, las dos siguen los mismos “principios” de SOA. Por tanto, REST y SOAP son dos vías distintas para la transmisión de datos en línea. Específicamente, ambas definen cómo diseñar interfaces de programación de aplicaciones (API), que no es más que una tecnología que sirve como un medio para que dos aplicaciones o plataformas se puedan comunicar entre sí y lo hacen exponiendo o publicando un conjunto de servicios y reglas para cómo acceder a ellos. La principal diferencia es que SOAP es un protocolo, y REST no lo es. Por lo general, alguno de ellos regirá a las API, es decir definirá una serie de reglas para la publicación de los servicios como también del acceso, según el caso práctico y las preferencias del desarrollador.
+      
     #t_3_1.titulo-segundo.mt-5
       .h4 3.1 SOAP
     figure

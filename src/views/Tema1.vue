@@ -58,7 +58,7 @@
               p Por ejemplo, para que el terminal B reciba un mensaje desde el terminal A, este debe enviarlo primero al router, quien a su vez lo remite al ordenador B asegurándose que dicho mensaje no sea entregado a otro ordenador.  Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica.
     .row.mt-5
       .col-12.col-lg-10.align-self-center
-        p Teniendo en cuenta la gráfica anterior, ¿qué sucede al conectar cientos, miles, millones de ordenadores entre sí? Por supuesto un solo enrutador no puede escalar tanto, pero, anteriormente se ha indicado que el enrutador es como un pequeño computador, entonces ¿Qué impide conectar dos enrutadores a la vez?.
+        p Teniendo en cuenta la gráfica anterior, ¿qué sucede al conectar cientos, miles, millones de ordenadores entre sí? Por supuesto un solo enrutador no puede escalar tanto, pero, anteriormente se ha indicado que el enrutador es como un pequeño computador, entonces ¿qué impide conectar dos enrutadores a la vez?.
       .col-2.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-1-7.svg" , alt="Texto que describa la imagen")
@@ -74,7 +74,7 @@
       .col-lg-10.offset-1
         .cajon.color-secundario.px-5.py-4.mb-4
           .h4 Ejemplo de conexión de diez equipos con dos enrutadores
-          p En ese sentido, estas conexiones entre terminales generan redes de datos de transmisión como la recepción de información, por lo que es necesario caracterizar estas redes, las cuales son importantes para la comprensión del funcionamiento de un sistema Web. Entre ellas se encuentran las redes de área local, una red de área metropolitana y una red de área amplia. 
+          p En ese sentido, estas conexiones entre terminales generan redes de datos de transmisión como la recepción de información, por lo que es necesario caracterizar estas redes, las cuales son importantes para la comprensión del funcionamiento de un sistema web. Entre ellas se encuentran las redes de área local, una red de área metropolitana y una red de área amplia. 
           figure  
             img(src="@/assets/template/tema-1-9.png" , alt="Texto que describa la imagen")
     .h4 Redes LAN
@@ -116,7 +116,8 @@
                         | ¿Cómo sabe un equipo si su mensaje se ha transmitido correctamente?
                       li 
                         i.fas.fa-angle-right 
-                        | ¿Cómo terminan la conversación?”. #[strong (Fisher, 2021)]
+                        | ¿Cómo terminan la conversación?.&nbsp; &nbsp;  
+                        span.mx-1 #[strong &nbsp;&nbsp; (Fisher, 2021)]
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-1-13.svg" alt="Texto que describa la imagen").w-75
@@ -195,7 +196,7 @@
         :style="{'background-image': `url(${require('@/assets/template/tema-1-16.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        .h4.mb-0 Sistema de nombres de Dominio, DNS
+        .h4.mb-0 Sistema de Nombres de Dominio, DNS
         .row.mt-5
         p Son como una libreta de direcciones de sitios web. Cuando escribes una dirección web en el navegador, el navegador busca los DNS antes de recuperar el sitio web. El navegador necesita averiguar en qué servidor vive el sitio web y así enviar los mensajes HTTP al lugar correcto (ver más abajo). Esto es como buscar la dirección de la tienda para que puedas llegar a ella. Por ejemplo, google.com es el nombre de dominio utilizado para sustituir la dirección IP 173.194.121.32. Así, usar un nombre de dominio es la manera más fácil para nosotros de identificar un ordenador a través de internet.  
     .h4.mt-5 Protocolo HTTP
@@ -225,7 +226,7 @@
           )
           .bloque-texto-g__texto.p-4
             .h4.mb-0 Cliente web
-            p Es una aplicación ejecutable que por lo regular se encuentra previamente instalada en el dispositivo del usuario, permitiendo el acceso a internet y siendo capaces de mostrar y solicitar documentos sobre una red, en ese sentido se infiere que es el responsable de la capa de presentación. 
+            p.mt-3 Es una aplicación ejecutable que por lo regular se encuentra previamente instalada en el dispositivo del usuario, permitiendo el acceso a internet y siendo capaces de mostrar y solicitar documentos sobre una red, en ese sentido se infiere que es el responsable de la capa de presentación. 
             p.mt-3 Por tanto, los clientes web son dispositivos de los usuarios conectados a Internet (por ejemplo, tu ordenador conectado a la red Wi-Fi o el teléfono conectado a la red de telefonía móvil) y el software que se encuentra disponible y permite acceder a Internet en dichos dispositivos (normalmente, un navegador web como Firefox o Chrome).
     .row
       .col-10.offset-1
@@ -235,7 +236,7 @@
           )
           .bloque-texto-g__texto.p-4
             .h4.mb-0 Servidor web
-            p En el otro lado de la arquitectura web se tiene al servidor web, cuya actividad más importante es la de atender las solicitudes de los clientes a través de los navegadores web. Es en esta instancia donde se lleva a cabo todo el procesamiento de las aplicaciones y la gestión de los datos. De manera adicional los servidores son computadores que almacenan páginas web, sitios o aplicaciones. 
+            p.mt-3 En el otro lado de la arquitectura web se tiene al servidor web, cuya actividad más importante es la de atender las solicitudes de los clientes a través de los navegadores web. Es en esta instancia donde se lleva a cabo todo el procesamiento de las aplicaciones y la gestión de los datos. De manera adicional los servidores son computadores que almacenan páginas web, sitios o aplicaciones. 
             p.mt-3 Cuando un dispositivo cliente quiere acceder a una página web, una copia de la página web se descarga desde el servidor en el equipo cliente y se muestra en el navegador web del usuario. Básicamente, un servidor es una gran computadora que guarda y transmite datos vía internet. 
     p.mt-5 Ahora se presenta un esquema que hará más comprensible el abordaje de cada uno de los aspectos que tienen que ver con esta arquitectura.
     .row.mt-4
@@ -270,18 +271,18 @@
       .col-12.borde-gris
         .row.p-4
           .col-6.col-lg-4.offset-3.offset-lg-0
-            .h4 Cuadro de login y password de facebookz
+            .h4 Cuadro de login y password de facebook
             figure
               img(src="@/assets/template/tema-1-25.png" alt="Texto que describa la imagen")
           .col-12.col-lg-8.mt-4.mt-lg-0
-            p Este ejemplo se puede realizar desde cualquier otro dispositivo, por eso es por lo que la arquitectura web es considerada como un ambiente multiplataforma y distribuido.
-            p.mt-3 Finalmente, se debe tener en cuenta que una Web sigue las siguientes pautas:
+            p Este ejemplo se puede realizar desde cualquier otro dispositivo, es por eso por lo que la arquitectura web es considerada como un ambiente multiplataforma y distribuido.
+            p.mt-3 Finalmente, se debe tener en cuenta que una web sigue las siguientes pautas:
             .row
               .col-sm.mb-5.mb-sm-0
                 ul.lista-ul
                   li
                     i.fas.fa-angle-right
-                    | ¿cómo se realiza la transferencia de información? 
+                    | ¿Cómo se realiza la transferencia de información? 
                     <br>Aquí cada solicitud y respuesta es enviada gracias al protocolo HTTP. Sobre este protocolo es que se envían los datos.                  
                   li
                     i.fas.fa-angle-right 

@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Emparejamiento entre término y definición
-        p.mb-4 Objetivo de la actividad	Afianzar algunos de los conceptos más importantes asociados a la identificación de tecnologías del desarrollo web.
+        p.mb-4 Afianzar algunos de los conceptos más importantes asociados a la identificación de tecnologías del desarrollo web.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
