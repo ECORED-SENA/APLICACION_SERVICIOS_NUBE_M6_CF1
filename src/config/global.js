@@ -191,7 +191,7 @@ export default {
     {
       termino: 'Arquitectura software',
       significado:
-        'Es una metodología que se refiere a la estructuración de un sistema software que, idealmente, se crea en etapas tempranas de la construcción del sistema.',
+        'Es una metodología que se refiere a la estructuración de un sistema <i>software</i> que, idealmente, se crea en etapas tempranas de la construcción del sistema.',
     },
     {
       termino: 'Página web',

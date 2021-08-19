@@ -21,14 +21,14 @@
         figure
           img(src="@/assets/template/tema-2-2.png" alt="Texto que describa la imagen")
     #t_2_1.titulo-segundo.mt-5
-      .h4 2.1  Tecnologías del front-end
+      .h4 2.1  Tecnologías del <i>front-end</i>
     .row.mt-5
       .col-10.offset-1
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Las tecnologías de front-end son usadas para el “lado del cliente”, sea de un sitio web o aplicación. Se utilizan para desarrollar los componentes interactivos y producir los elementos que los usuarios ven e interactúan con ellos. Esto incluye colores y estilos de texto, imágenes, botones y menús de navegación, entre otros objetos interactivos. Normalmente estas tecnologías y lenguajes vienen implementados en los diferentes navegadores.
+                p Las tecnologías de <i>front-end</i> son usadas para el “lado del cliente”, sea de un sitio web o aplicación. Se utilizan para desarrollar los componentes interactivos y producir los elementos que los usuarios ven e interactúan con ellos. Esto incluye colores y estilos de texto, imágenes, botones y menús de navegación, entre otros objetos interactivos. Normalmente estas tecnologías y lenguajes vienen implementados en los diferentes navegadores.
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-2-3.svg" alt="Texto que describa la imagen").w-75
@@ -37,7 +37,7 @@
       img(src="@/assets/template/tema-2-4.png" alt="Texto que describa la imagen")
     .row.mt-5
       .col-12.col-lg-9
-        p HTML es la sigla de Hyper Text Markup Language. Es una de las tecnologías fundamentales necesarias para el desarrollo de todo tipo de aplicaciones web. Proporciona la estructura base para una página web. El código HTML garantiza que todo el contenido de un sitio web tenga el formato adecuado y estructurado. Esto es para que cada navegador de internet pueda mostrar el contenido según lo previsto. Sin HTML, un navegador no podría mostrar texto o cargar imágenes y otros elementos.
+        p HTML es la sigla de <i>Hyper Text Markup Language</i>. Es una de las tecnologías fundamentales necesarias para el desarrollo de todo tipo de aplicaciones web. Proporciona la estructura base para una página web. El código HTML garantiza que todo el contenido de un sitio web tenga el formato adecuado y estructurado. Esto es para que cada navegador de internet pueda mostrar el contenido según lo previsto. Sin HTML, un navegador no podría mostrar texto o cargar imágenes y otros elementos.
         p.mt-3 HTML5, la versión más actual de HTML, Contiene un conjunto más amplio de tecnologías que permite a los sitios web y a las aplicaciones ser más diversas y de gran alcance. A este conjunto se le llama HTML5. En ese sentido, esta tecnología presenta una gran cantidad de recursos, como librerías, plugins y API que se puedan usar con un lenguaje de programación como lo es JavaScript para realizar un sitio web más interactivo y dinámico. Las tecnologías más usadas por HTML5 son las siguientes:
       .col-4.col-lg-3.offset-4.offset-lg-0.align-self-center
         figure
@@ -69,7 +69,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) CSS, describe como debe ser renderizado  el elemento estructurado, es decir, se encarga de la apariencia del sitio. De manera adicional, abordamos la definición descomponiendo sus siglas:
+                p Hojas de Estilo en Cascada (del inglés <i>Cascading Style Sheets</i>) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) CSS, describe como debe ser renderizado  el elemento estructurado, es decir, se encarga de la apariencia del sitio. De manera adicional, abordamos la definición descomponiendo sus siglas:
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-2-6.svg" alt="Texto que describa la imagen").w-75
@@ -87,7 +87,7 @@
             | #[strong Sheets:]<span> </span> lo que traduce hojas, porque los estilos de una página web se añaden en archivos aparte. Estos archivos deben tener la extensión CSS de manera general.
     p.mt-5 Desde CSS3, el alcance de las especificaciones se incrementó de forma significativa y el progreso de los diferentes módulos de CSS comenzó a mostrar varias diferencias. De esta forma con CSS3 se tiene mayor control de los elementos del sitio, con sus nuevas funciones y atributos sobre las etiquetas HTML, maximizan las acciones visuales del sitio o plataforma
     .h4.mt-5 JavaScript (JS)
-    p.mt-3 En la literatura hay un sin número de definiciones con respecto a este lenguaje de programación, no obstante, hay una especial la cual se cita de parte del blog de Rafa Ramos de manera literal, él dice:z
+    p.mt-3 En la literatura hay un sin número de definiciones con respecto a este lenguaje de programación, no obstante, hay una especial la cual se cita de parte del blog de Rafa Ramos de manera literal, él dice:
     .row.mt-3 
       .col-10.offset-1
         .cajon.color-acento-contenido.px-5.py-4.mb-4
@@ -104,12 +104,12 @@
       .col-4.col-lg-5.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-2-8.png" alt="Texto que describa la imagen")
-    .h4.mt-5 Frameworks del front-end
+    .h4.mt-5 Frameworks del <i>front-end</i>
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Z-YzV72qq4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_2_2.titulo-segundo.mt-5
-      .h4 2.2  Tecnologías del back-end
+      .h4 2.2  Tecnologías del <i>back-end</i>
     .row.mt-4
       .col.borde-izq-amarillo.bg-amarillo-claro
         .row
@@ -117,18 +117,18 @@
             figure
               img(src="@/assets/template/tema-2-9.svg" alt="Texto que describa la imagen")
           .col-12.col-lg-9.px-3.py-4
-            p Este tipo de tecnologías son aquellas que se utilizan en el lado Servidor. En ese sentido el Servidor las utiliza para gestionar y/o procesar las diferentes peticiones de información que le llegan, además realiza gestión sobre las bases de datos alojadas en los mismos. La información una vez tratada se envía devuelta al dispositivo para que sea visualizada en el dispositivo a través de las tecnologías Front-end. Las tecnologías más conocidas y usadas en el BackEnd son PHP, Java, .NET, Python, MySQL, etc.
+            p Este tipo de tecnologías son aquellas que se utilizan en el lado Servidor. En ese sentido el Servidor las utiliza para gestionar y/o procesar las diferentes peticiones de información que le llegan, además realiza gestión sobre las bases de datos alojadas en los mismos. La información una vez tratada se envía devuelta al dispositivo para que sea visualizada en el dispositivo a través de las tecnologías <i>Front-end</i>. Las tecnologías más conocidas y usadas en el BackEnd son PHP, Java, .NET, Python, MySQL, etc.
     .h4.mt-5 Lenguajes del servidor
     .row.mt-4
       .col-8.offset-2
         figure
           img(src="@/assets/template/tema-2-10.svg" alt="Texto que describa la imagen")
-    p.mt-5 En el lado del servidor, el back-end potencia el funcionamiento del sitio web debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de back-end se utilizan para comunicar la información de la base de datos al navegador. La empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido”. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia. #[strong (Third Rock Techkno, 2021)]
+    p.mt-5 En el lado del servidor, el <i>back-end</i> potencia el funcionamiento del sitio web debido a que es en esta instancia donde se realizan los procesos más robustos de información, por lo que se necesitan de igual manera lenguajes de programación con una diversidad de funciones para el tratamiento de esos datos. Además, los programas escritos aquí por los desarrolladores de <i>back-end</i> se utilizan para comunicar la información de la base de datos al navegador. La empresa de base tecnológica Third Rock Techkno indica que: “En 2021, el desarrollo de BackEnd será aún más vital a medida que las empresas busquen expandirse a un ritmo rápido”. Además, esta empresa muestra los lenguajes de programación del servidor que están en tendencia. #[strong (Third Rock Techkno, 2021)]
     .row.mt-5 
       .col-10.offset-1
         .cajon.color-secundario.bg-color-secundario-op40.px-5.py-4.mb-4
           .h3 Node.JS 
-          p.mt-3 Este lenguaje tiene su propio entorno de ejecución. Esta es la razón por la que es popular entre la comunidad de desarrolladores. Además, como Node.js en la literatura de esta disciplina del desarrollo software es comúnmente visto como uno de los lenguajes más eficientes, se prefiere desarrollar aplicaciones de alta gama para el desarrollo de sitios web, así como para la transmisión de video. 
+          p.mt-3 Este lenguaje tiene su propio entorno de ejecución. Esta es la razón por la que es popular entre la comunidad de desarrolladores. Además, como Node.js en la literatura de esta disciplina del desarrollo <i>software</i> es comúnmente visto como uno de los lenguajes más eficientes, se prefiere desarrollar aplicaciones de alta gama para el desarrollo de sitios web, así como para la transmisión de video. 
     .row.mt-3 
       .col-10.offset-1
         .cajon.color-secundario.bg-color-secundario-op25.px-5.py-4.mb-4
@@ -144,14 +144,14 @@
         .cajon.color-secundario.bg-color-secundario-op10.px-5.py-4.mb-4
           .h3 PHP 
           p.mt-3 Es un lenguaje de programación de BackEnd conveniente que es muy flexible y tiene características impecables. Es uno de los programas donde su comunidad se ha venido actualizando y hay gran mayoría de frameworks basados en este lenguaje. Es por eso por lo que PHP se considera el futuro del desarrollo BackEnd en 2021. Además, la sintaxis de PHP es muy expresiva, lo que brinda libertad creativa a los desarrolladores.
-    .h4.mt-5 Frameworks del back-end
+    .h4.mt-5 Frameworks del <i>back-end</i>
     .row.mt-5
       .col-12
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Como se mencionó en el apartado de frameworks del lado del front-end, este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los frameworks del lado del back-end que son tendencia. Según indica una de las empresas de desarrollo web más importantes de Canadá Monocubed. (Mistry, 2021)
+                p Como se mencionó en el apartado de frameworks del lado del <i>Front-end</i>, este tipo de recurso ayuda a los desarrolladores a realizar sus trabajos de manera más ágil, segura y robusta. En ese sentido se presentan los frameworks del lado del <i>back-end</i> que son tendencia. Según indica una de las empresas de desarrollo web más importantes de Canadá Monocubed. (Mistry, 2021)
             .col-lg-4.mb-4.mb-lg-0s
               figure
                 img(src="@/assets/template/tema-2-11.svg" alt="Texto que describa la imagen").w-75

@@ -55,7 +55,7 @@
               figure
                 img(src='@/assets/template/tema-1-6.svg', alt='Texto que describa la imagen')
             .col-md-8.mb-4.mb-md-0
-              p Por ejemplo, para que el terminal B reciba un mensaje desde el terminal A, este debe enviarlo primero al router, quien a su vez lo remite al ordenador B asegurándose que dicho mensaje no sea entregado a otro ordenador.  Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica.
+              p Por ejemplo, para que el terminal B reciba un mensaje desde el terminal A, este debe enviarlo primero al <i>router</i>, quien a su vez lo remite al ordenador B asegurándose que dicho mensaje no sea entregado a otro ordenador.  Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica.
     .row.mt-5
       .col-12.col-lg-10.align-self-center
         p Teniendo en cuenta la gráfica anterior, ¿qué sucede al conectar cientos, miles, millones de ordenadores entre sí? Por supuesto un solo enrutador no puede escalar tanto, pero, anteriormente se ha indicado que el enrutador es como un pequeño computador, entonces ¿qué impide conectar dos enrutadores a la vez?.
@@ -64,8 +64,8 @@
           img(src="@/assets/template/tema-1-7.svg" , alt="Texto que describa la imagen")
     .row.mt-5
       .col-12.col-lg-12.align-self-center
-        p El proceso de conexión entre los diversos terminales demuestra que puede ser un ejercicio muy complejo y engorroso, por lo tanto, con el fin de solucionar esta organización, cada ordenador en una red está conectado a una pequeña computadora especial llamada enrutador o router #[strong (en inglés)]. 
-        p.mt-3 Este dispositivo cumple una función: tal como lo hace un señalizador en las estaciones del sistema integrado de transporte público, que  indican cuál ruta necesitas para llegar a un destino. De esta manera el router se encarga de asegurar que el mensaje enviado desde un computador o terminal emisor llegue al destino correcto. Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica. 
+        p El proceso de conexión entre los diversos terminales demuestra que puede ser un ejercicio muy complejo y engorroso, por lo tanto, con el fin de solucionar esta organización, cada ordenador en una red está conectado a una pequeña computadora especial llamada enrutador o <i>router</i> #[strong (en inglés)]. 
+        p.mt-3 Este dispositivo cumple una función: tal como lo hace un señalizador en las estaciones del sistema integrado de transporte público, que  indican cuál ruta necesitas para llegar a un destino. De esta manera el <i>router</i> se encarga de asegurar que el mensaje enviado desde un computador o terminal emisor llegue al destino correcto. Una vez incorporado un enrutador al sistema, la red de diez terminales solo requiere diez cables: un conector para cada ordenador y un enrutador con 10 conectores, como se aprecia en la siguiente gráfica. 
     .row.mt-5
       .col-6.col-lg-6.offset-3.offset-lg-3.align-self-center
         figure
@@ -77,21 +77,21 @@
           p En ese sentido, estas conexiones entre terminales generan redes de datos de transmisión como la recepción de información, por lo que es necesario caracterizar estas redes, las cuales son importantes para la comprensión del funcionamiento de un sistema web. Entre ellas se encuentran las redes de área local, una red de área metropolitana y una red de área amplia. 
           figure  
             img(src="@/assets/template/tema-1-9.png" , alt="Texto que describa la imagen")
-    .h4 Redes LAN
-    p.mt-4 Generalmente llamadas LAN (Local Área Networks), son redes de naturaleza privada que operan dentro de un solo establecimiento, como una casa, oficina o fábrica. Las redes LAN se utilizan ampliamente para conectar computadoras personales y electrodomésticos con el fin de compartir recursos (por ejemplo, impresoras) e intercambiar información. 
+    .h4 Redes de área local LAN
+    p.mt-4 Generalmente llamadas LAN (<i>Local Área Networks</i>), son redes de naturaleza privada que operan dentro de un solo establecimiento, como una casa, oficina o fábrica. Las redes LAN se utilizan ampliamente para conectar computadoras personales y electrodomésticos con el fin de compartir recursos (por ejemplo, impresoras) e intercambiar información. 
     p.mt-3 A continuación, se presenta un ejemplo de esta red:
     .h4.mt-5 Ejemplo de red de área local inalámbrica y cableada
     figure.mt-5
       img(src="@/assets/template/tema-1-10.png" , alt="Texto que describa la imagen")      
-    p.mt-4 El diseño físico y lógico de la red llamado topología está basado en los enlaces de punto a punto comúnmente para redes alámbricas. El estándar IEEE 802.3, comúnmente conocido como Ethernet, es la manera más común de LAN alámbrica. La figura en su apartado b, muestra un ejemplo de topología de Ethernet conmutada. Cada computadora se comunica mediante el protocolo Ethernet y se conecta a una caja conocida como switch a través de un enlace de punto a punto. 
-    p.mt-3 En ese sentido, un switch tiene varios puertos, cada uno de los cuales se puede conectar a una computadora. La función que cumple el switch es transmitir paquetes entre las computadoras conectadas a él, y utiliza la dirección en cada paquete para determinar a qué computadora se lo debe enviar. Tal como se mostró en el ejemplo de red de área cableada. 
+    p.mt-4 El diseño físico y lógico de la red llamado topología está basado en los enlaces de punto a punto comúnmente para redes alámbricas. El estándar IEEE 802.3, comúnmente conocido como Ethernet, es la manera más común de LAN alámbrica. La figura en su apartado b, muestra un ejemplo de topología de Ethernet conmutada. Cada computadora se comunica mediante el protocolo Ethernet y se conecta a una caja conocida como <i>switch</i> a través de un enlace de punto a punto. 
+    p.mt-3 En ese sentido, un <i>switch</i> tiene varios puertos, cada uno de los cuales se puede conectar a una computadora. La función que cumple el <i>switch</i> es transmitir paquetes entre las computadoras conectadas a él, y utiliza la dirección en cada paquete para determinar a qué computadora se lo debe enviar. Tal como se mostró en el ejemplo de red de área cableada. 
     .h4.mt-5 Modelo de referencia TCP/IP
     figure.mt-5
       img(src="@/assets/template/tema-1-11.png" , alt="Texto que describa la imagen")
     p.mt-4 Al igual que los humanos, es importante que todos los equipos de cómputo tengan un modo común de comunicarse entre ellos. Para la mayoría de los equipos actuales, este modo es TCP/IP. TCP/IP suele venir inmerso en los equipos y está automatizado en buena medida. No obstante, es necesario la comprensión del modelo TCP/IP, sobre todo en el caso de que vaya a configurar un equipo para conectarlo a otro sistema. #[strong (Fisher, 2021)]
     .row
       .col-12.col-lg-10
-        p Así, este protocolo TCP/IP, cuyas siglas definen: Transmission Control Protocol/internet Protocol (Protocolo de control de transmisión/Protocolo de internet), se presenta como un conjunto de reglas estandarizadas que permiten a los equipos comunicarse en una red como internet. La potencialidad de las máquinas está en su velocidad de transmisión y comunicar con otras, de hecho, una de las tendencias de esta cuarta revolución industrial es la interacción de ellas de manera inteligente, sobre todo en contexto de producción. Muchas de las cosas para las que utilizamos los equipos (enviar mensajes de correo electrónico, ver Netflix u obtener indicaciones para llegar a un sitio) dependen de la comunicación entre ellos. Pueden ser equipos de distintos fabricantes e incluso encontrarse en zonas geográficas diferentes. De esta manera las personas y plataformas software que los utilizan pueden hablar distintos lenguajes humanos e informáticos.
+        p Así, este protocolo TCP/IP, cuyas siglas definen: Transmission Control Protocol/internet Protocol (Protocolo de control de transmisión/Protocolo de internet), se presenta como un conjunto de reglas estandarizadas que permiten a los equipos comunicarse en una red como internet. La potencialidad de las máquinas está en su velocidad de transmisión y comunicar con otras, de hecho, una de las tendencias de esta cuarta revolución industrial es la interacción de ellas de manera inteligente, sobre todo en contexto de producción. Muchas de las cosas para las que utilizamos los equipos (enviar mensajes de correo electrónico, ver Netflix u obtener indicaciones para llegar a un sitio) dependen de la comunicación entre ellos. Pueden ser equipos de distintos fabricantes e incluso encontrarse en zonas geográficas diferentes. De esta manera las personas y plataformas <i>software</i> que los utilizan pueden hablar distintos lenguajes humanos e informáticos.
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-1-12.svg" , alt="Texto que describa la imagen")
@@ -227,7 +227,7 @@
           .bloque-texto-g__texto.p-4
             .h4.mb-0 Cliente web
             p.mt-3 Es una aplicación ejecutable que por lo regular se encuentra previamente instalada en el dispositivo del usuario, permitiendo el acceso a internet y siendo capaces de mostrar y solicitar documentos sobre una red, en ese sentido se infiere que es el responsable de la capa de presentación. 
-            p.mt-3 Por tanto, los clientes web son dispositivos de los usuarios conectados a Internet (por ejemplo, tu ordenador conectado a la red Wi-Fi o el teléfono conectado a la red de telefonía móvil) y el software que se encuentra disponible y permite acceder a Internet en dichos dispositivos (normalmente, un navegador web como Firefox o Chrome).
+            p.mt-3 Por tanto, los clientes web son dispositivos de los usuarios conectados a Internet (por ejemplo, tu ordenador conectado a la red Wi-Fi o el teléfono conectado a la red de telefonía móvil) y el <i>software</i> que se encuentra disponible y permite acceder a Internet en dichos dispositivos (normalmente, un navegador web como Firefox o Chrome).
     .row
       .col-10.offset-1
         .bloque-texto-g.bg-acento-contenido-op70.p-3.p-sm-4.p-md-5.mb-5
