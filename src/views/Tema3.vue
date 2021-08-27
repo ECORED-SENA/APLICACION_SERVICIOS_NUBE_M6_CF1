@@ -12,7 +12,7 @@
         .row.mb-5 
           .col-12
             .cajon.color-acento-contenido.px-5.py-4.mb-3
-              p “…una manera de hacer que los componentes de <i>software</i> sean reutilizables a través de interfaces de servicio. Estas interfaces utilizan estándares de comunicación comunes entre sí, de tal manera que pueden incorporarse rápidamente a nuevas aplicaciones sin tener que realizar una integración profunda cada vez…”. #[strong (SOA, 2021)]
+              p “… una manera de hacer que los componentes de <i>software</i> sean reutilizables a través de interfaces de servicio. Estas interfaces utilizan estándares de comunicación comunes entre sí, de tal manera que pueden incorporarse rápidamente a nuevas aplicaciones sin tener que realizar una integración profunda cada vez…”. #[strong (SOA, 2021)]
       .col-5.d-none.d-lg-block
         figure
           img(src="@/assets/template/tema-3-6.png" alt="Texto que describa la imagen")

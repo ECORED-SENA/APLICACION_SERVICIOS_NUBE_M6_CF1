@@ -16,7 +16,7 @@
         .row.mb-5 
           .col-12
             .cajon.color-secundario.p-4.mb-4
-              p “…Los modelos y tecnologías de desarrollo web han evolucionado mucho en la última década, #[strong existen multitud de aplicaciones, frameworks, librerías, arquitecturas y sistemas de publicación] en diferentes versiones que a su vez reciben cambios o mejoran con el tiempo.  El progreso también ha tenido lugar en lo relacionado con la administración de sistemas, servicios de alojamiento, técnicas de escalabilidad, monitorización y gestión de centros de procesos de datos. Esta evolución ha dado lugar a la #[strong convergencia de una gran cantidad de tecnologías], herramientas y estilos arquitectónicos para desarrollar sitios web y aplicaciones.” #[strong (I, 2018)]
+              p “… Los modelos y tecnologías de desarrollo web han evolucionado mucho en la última década, #[strong existen multitud de aplicaciones, frameworks, librerías, arquitecturas y sistemas de publicación] en diferentes versiones que a su vez reciben cambios o mejoran con el tiempo.  El progreso también ha tenido lugar en lo relacionado con la administración de sistemas, servicios de alojamiento, técnicas de escalabilidad, monitorización y gestión de centros de procesos de datos. Esta evolución ha dado lugar a la #[strong convergencia de una gran cantidad de tecnologías], herramientas y estilos arquitectónicos para desarrollar sitios web y aplicaciones.” #[strong (I, 2018)]
       .col-5.d-none.d-lg-block
         figure
           img(src="@/assets/template/tema-2-2.png" alt="Texto que describa la imagen")

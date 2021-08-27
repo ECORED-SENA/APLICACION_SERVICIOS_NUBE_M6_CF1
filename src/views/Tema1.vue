@@ -30,7 +30,7 @@
         :style="{'background-image': `url(${require('@/assets/template/tema-1-3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Cuando dos computadoras necesitan comunicarse, se pueden vincular a través de medios físicos, por lo regular el cable Ethernet o de forma inalámbrica con tecnologías como Wifi, Bluetooth, ZigBee, entre otras). 
+        p.mb-0 Cuando dos computadoras necesitan comunicarse, se pueden vincular a través de medios físicos, por lo regular el cable Ethernet o de forma inalámbrica con tecnologías como Wifi, Bluetooth, ZigBee, entre otras. 
     .row.mt-5
       .col-10.offset-1
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
@@ -95,7 +95,7 @@
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-1-12.svg" , alt="Texto que describa la imagen")
-    p.mt-3 El blog de Avast Academy, señala: “…Una interacción determinada puede darse entre dos sistemas informáticos o involucrar cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano, cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos deben saber, por adelantado, cómo se espera que se comuniquen.
+    p.mt-3 El blog de Avast Academy, señala: “… Una interacción determinada puede darse entre dos sistemas informáticos o involucrar cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano, cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos deben saber, por adelantado, cómo se espera que se comuniquen.
     .row.mt-5
       .col-12.col-lg-8.offset-lg-2
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 

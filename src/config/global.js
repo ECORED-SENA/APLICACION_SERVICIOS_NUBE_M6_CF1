@@ -231,7 +231,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=7_LPdttKXPc',
     },
     {
-      texto: 'saklar. (2017, 25 junio). Topologias de Red ',
+      texto: 'saklar. (2017, 25 junio). Topologías de Red ',
       tipo: 'Vídeo de YouTube',
       link: 'https://www.youtube.com/watch?v=awLJkNHBoms',
     },
